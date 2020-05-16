@@ -1,15 +1,22 @@
 # springboot-jms
 Spring boot application with in-memory ActiveMQ broker, destination queue and DLQ
 
-SpringBoot version: 2.2.7.RELEAS
+SpringBoot version: 2.2.7.RELEASE
+
 Java Version: 1.8
+
 Apache ActiveMQ 5.15.12
+
 DataBase-  H2
+
 
 In memory Broker URL : tcp://localhost:61616
 
+
 Destination Queue: shoppingcart
+
 DLQ:    ActiveMQ.DLQ.Queue.shoppingcart.dlq
+
 
 GET URL to send message to destation queue:  http://localhost:8080/api/cart/add/{Product-id}
   
